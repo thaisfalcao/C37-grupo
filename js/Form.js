@@ -26,16 +26,9 @@ class Form {
 
   handleMousePressed() {
    // CRIE A FUNÇÃO DE PRESSIONAMENTO DE TECLA
-    this.playButton.mousePressed(() => {
-      this.input.hide();
-      this.playButton.hide();
-      var message = `
-      Olá ${this.input.value()}
-      </br> espere outro jogador entrar... `;
-      this.greeting.html(message);
-      player.name = this.input.value();
-      player.index = 1;
-    })
+
+    
+    
    /* O símbolo usado para escrever a mensagem abaixo (laranja) é a crase. */
   }
 
